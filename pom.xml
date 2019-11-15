@@ -76,6 +76,11 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
+		<repository>
+        		<id>central</id>
+        		<name>plugins-releases</name>
+        		<url>http://35.154.231.180:8081/nexus/content/repositories/central</url>
+    		</repository>
   		<snapshotRepository>
     			<id>snapshots</id>
     			<url>http://35.154.231.180:8081/nexus/content/repositories/snapshots</url>
